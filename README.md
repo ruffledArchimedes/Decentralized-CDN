@@ -1,12 +1,61 @@
-# React + Vite
+# Decentralized-CDN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal React + Vite template providing a fast, modern development setup with HMR (Hot Module Replacement) and ESLint integration. This project serves as a foundation for building scalable, production-ready applications with a focus on simplicity and developer experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡️ **Vite** for ultra-fast development and build
+- ⚛️ **React** with HMR for instant feedback
+- 🛡️ **ESLint** with sensible rules for code quality
+- 🔌 Supports both official React plugins:
+  - `@vitejs/plugin-react` (Babel-based Fast Refresh)
+  - `@vitejs/plugin-react-swc` (SWC-based Fast Refresh)
+- 📝 Easy to extend for TypeScript and advanced linting
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to set up and run the project locally:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/ruffledArchimedes/Decentralized-CDN.git
+   cd Decentralized-CDN
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser and visit:**
+   ```
+   http://localhost:5173
+   ```
+
+## Expanding the ESLint Configuration
+
+For production applications, we recommend using TypeScript with type-aware lint rules enabled. Check out the [Vite TypeScript template](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) for information on integrating TypeScript and `typescript-eslint` into your project.
+
+## License
+
+This project is currently unlicensed. Please add a license if you intend to distribute or use it in production.
+
+---
+
+Made using [Vite](https://vitejs.dev/) and [React](https://react.dev/)
